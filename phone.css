@@ -1,0 +1,48 @@
+/*Navigation bar is unique thats why we use id
+it includes a logo and a list
+logo should be inside a div*/
+#navbar{
+    flex-direction: column;
+}
+
+
+/*SECTION 1 as HOME 
+with text with button
+and background image*/
+#home{
+    height: 290px;
+    padding: 3px 8px;
+}
+
+#home::before{
+    height: 480px;
+}
+
+#home p{
+    font-size: 3rem;
+}
+
+/*SECTION 2 as SERVICE PROVIDER 
+with text and image*/
+#services{
+    flex-direction: column;
+}
+#services .box{
+
+}
+
+
+/*SECTION3 for clients as clients-section*/
+#clients{
+    overflow: hidden;
+}
+
+
+/*SECTION4 to contact*/
+
+.h-primary {
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+/*footer*/
